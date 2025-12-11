@@ -10,7 +10,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY syn_scan_detector.py .
+COPY syn_scan_detector/syn_scan_detector.py .
 COPY run_analyzer.sh .
 RUN chmod +x run_analyzer.sh
 
