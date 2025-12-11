@@ -1,4 +1,0 @@
-[project]
-name = "syn_scan_detector"
-version = "0.1.0"
-packages = ["syn_scan_detector"]
